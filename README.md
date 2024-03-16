@@ -46,7 +46,7 @@ sudo apt install python3
 ```bash
 # Instale o gerenciador de pacotes do Python (pip)
 
-sudo apt install python3
+sudo apt install python3-pip
 ```
 
 ```bash
