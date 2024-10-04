@@ -1,56 +1,36 @@
+# Descriptor Effectiveness: Hu Moments and LBP
 
-# Eficácia de Descritores: Hu Moments e LBP
+This Python project uses computer vision to classify images into two groups using a supervised model. The program's main focus is feature extraction using the Hu Moments and LBP descriptors. Initially, the program extracts these features, followed by model training. After training, the program performs tests using the MLP (Multilayer Perceptron), Random Forest (RF) and SVM (Support Vector Machine) classifiers. At the end of the tests, a report is generated containing a confusion matrix, providing a detailed analysis of the accuracy achieved in classifying the images. Lobboㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ ## Repository
 
-Este projeto em Python emprega visão computacional para realizar a classificação de imagens em dois grupos, utilizando um modelo supervisionado. O foco central do programa é a extração de características por meio dos descritores Hu Moments e LBP. Inicialmente, o programa realiza a extração destas características, seguido pelo treinamento do modelo. Após o treinamento, o programa conduz testes utilizando os classificadores MLP (Multilayer Perceptron), Random Forest (RF) e SVM (Support Vector Machine). Ao finalizar os testes, é gerado um relatório contendo uma matriz de confusão, fornecendo uma análise detalhada da acurácia alcançada na classificação das imagens.ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
+## Classifier and Accuracy
 
-## Autores
+The classification process in this project is driven by a supervised model using the MLP (Multi-Layer Perceptron), Support Vector Machine (SVM), and Random Forest (RF) classifiers. The classification result is presented in a confusion matrix.ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
 
-- Gustavo Aleixo
-- Thiago Falasca
-- João Victor Lobboㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
-
-
-## Repositório
-
-[![github](https://img.shields.io/badge/Repositório_Github-7?style=for-the-badge&logo=github&logoColor=whitek&color=black)](https://github.com/thiagofalasca/Processamento-de-Imagens)ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
-
-## Classificador e Acurácia
-
-O processo de classificação neste projeto é conduzido por um modelo supervisionado utilizando os classificadores MLP (Multi-Layer Perceptron), Support Vector Machine (SVM), e Random Forest (RF). O resultado da classificação é apresentado em uma matriz de confusão.ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
-
-
-
- **RESULTADOS OBTIDOS** 
-| Hu Moments    ㅤ             | LBP                      |
+**RESULTS OBTAINED**
+| Hu Moments ㅤ | LBP |
 | ---------------------------- | ------------------------ |
-| MLP = 50.00% Acurácia   ㅤ   |  MLP = 89.29% Acuráciaㅤ |
-| SVM = 53.57% Acurácia    ㅤ  |  SVM = 73.21% Acurácia ㅤ|
-| RF = 60.71% Acurácia    ㅤ   |  RF = 98.21% Acuráciaㅤ  |
+| MLP = 50.00% Accuracy ㅤ | MLP = 89.29% Accuracyㅤ |
+| SVM = 53.57% Accuracy ㅤ | SVM = 73.21% Accuracy ㅤ|
+| RF = 60.71% Accuracy ㅤ | RF = 98.21% Accuracyㅤ |
 
-ㅤㅤ
+## Installation
 
-
-## Instalação
-
-Em um ambiente Linux, abra o terminal e execute os seguintes comandos:
-
+In a Linux environment, open the terminal and run the following commands:
 
 ```bash
-# Instale o Python
+# Install Python
 
 sudo apt install python3
-``` 
-
-
+```
 
 ```bash
-# Instale o gerenciador de pacotes do Python (pip)
+# Install the Python package manager (pip)
 
 sudo apt install python3-pip
 ```
 
 ```bash
-# Instale as bibliotecas necessárias
+# Install the necessary libraries
 
 pip install split-folders
 pip install opencv-python
@@ -60,15 +40,3 @@ pip install scikit-learn
 pip install progress
 pip install matplotlib
 ```
-
-
-
-
-
-  
-  
-         
-   
-    
-        
-      
